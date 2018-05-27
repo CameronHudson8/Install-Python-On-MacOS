@@ -3,7 +3,7 @@
 brew update
 brew install python
 
-cp ~/.bash_profile ~./bash_profile.pysave
+cp ~/.bash_profile ~/.bash_profile.pysave
 
 tee -a ~/.bash_profile << END
 # Setting PATH for Python 3.6
